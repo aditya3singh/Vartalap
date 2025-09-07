@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { cloneDeep } from "lodash";
 
 import { useSocket } from "@/context/socket";
-import usePeer from "@/context/hooks/usePeer";
-import useMediaStream from "@/context/hooks/useMediaStream";
-import usePlayer from "@/context/hooks/usePlayer";
+import usePeer from "@/hooks/usePeer";
+import useMediaStream from "@/hooks/useMediaStream";
+import usePlayer from "@/hooks/usePlayer";
 
 import Player from "@/component/Player";
 import Bottom from "@/component/Bottom";
